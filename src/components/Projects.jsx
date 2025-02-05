@@ -2,39 +2,52 @@ import React from "react";
 import "../styles/App.css";
 
 // Importera ikoner (exempel från react-icons)
-import { FaReact, FaCss3Alt, FaJs, FaGithub, FaShoppingCart } from "react-icons/fa";
-import { SiFirebase, SiTailwindcss, SiMongodb, SiNextdotjs } from "react-icons/si";
+import { FaReact, FaCss3Alt, FaJs, FaGithub, FaHtml5 } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiNextdotjs } from "react-icons/si";
 
 const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description: "Min personliga portfolio byggd med React och CSS.",
-    image: "portfolio.jpg", // Lägg bilden i public-mappen
-    github: "https://github.com/dittkonto/portfolio",
+    title: "Söka efter böcker",
+    description: "Sida som integrerar Open Librarys offentliga Api som gör det möjligt att söka efter någon specifik bok eller Författare",
+    image: "Sökabok.png", // Lägg bilden i public-mappen
+    github: "https://github.com/MattiasWaern/Testar-OpenLibrary-API",
     technologies: [
-      { name: "React", icon: <FaReact /> },
+      { name: "Html", icon: <FaHtml5 /> },
       { name: "CSS", icon: <FaCss3Alt /> },
       { name: "JavaScript", icon: <FaJs /> },
     ],
   },
   {
     id: 2,
-    title: "E-handelsplattform",
-    description: "En enkel e-handelsplattform med produkter och kundvagn.",
-    image: "ecommerce.jpg",
-    github: "https://github.com/dittkonto/ecommerce",
+    title: "Resturang Sida",
+    description: "En enkel Resturang sida med en contact, about och en meny",
+    image: "BBQ.png",
+    github: "https://github.com/Viktorwahlqvist/restaurant-project",
     technologies: [
-      { name: "React", icon: <FaReact /> },
-      { name: "Redux", icon: <FaShoppingCart /> },
-      { name: "Firebase", icon: <SiFirebase /> },
+      { name: "Html", icon: <FaHtml5 /> },
+      { name: "CSS", icon: <FaCss3Alt /> },
+      { name: "JavaScript", icon: <FaJs /> },
     ],
   },
   {
     id: 3,
-    title: "Bloggplattform",
-    description: "En blogg där användare kan skapa och kommentera inlägg.",
-    image: "blog.jpg",
+    title: "Min Portfölj sida",
+    description: "Min portfolia hemsida, där man kan se information om mig, samt kunna se olika projekt och slutligen kunna kontakta mig",
+    image: "portfölj.png",
+    github: "https://github.com/MattiasWaern/ProjektUppgiftV2",
+    technologies: [
+      { name: "React", icon: <FaReact /> },
+      { name: "CSS", icon: <SiTailwindcss /> },
+      { name: "JavaScript", icon: <FaJs /> },
+      { name: "Html", icon: <FaHtml5 /> },
+    ],
+  },
+  {
+    id: 4,
+    title: "TEST EXEMPEL",
+    description: "DETTA ÄR BARA ETT EXEMPEL",
+    image: "cogspack.png",
     github: "https://github.com/dittkonto/blog",
     technologies: [
       { name: "Next.js", icon: <SiNextdotjs /> },
