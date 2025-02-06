@@ -21,7 +21,7 @@ const projects = [
   {
     id: 2,
     title: "Resturang Sida",
-    description: "En enkel Resturang sida med en contact, about och en meny",
+    description: "Ett grupparbete i skolan där vi skulle skapa en enkel Resturang sida med en contact, about och en meny",
     image: "BBQ.png",
     github: "https://github.com/Viktorwahlqvist/restaurant-project",
     technologies: [

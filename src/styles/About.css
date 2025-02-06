@@ -1,0 +1,159 @@
+:root {
+    --bg-light: #f4f4f4;
+    --text-light: #222;
+    --card-light: white;
+    --highlight-light: #007bff;
+  
+    --bg-dark: #121212;
+    --text-dark: #f4f4f4;
+    --card-dark: #1e1e1e;
+    --highlight-dark: #61dafb;
+  }
+  
+  /* 🔹 Dark Mode Stöd */
+  body.dark-mode {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+  }
+  
+  body.dark-mode .about-container {
+    background: var(--bg-dark);
+  }
+  
+  body.dark-mode .about-content {
+    background: var(--card-dark);
+  }
+  
+  body.dark-mode .highlight {
+    color: var(--highlight-dark);
+  }
+  
+  body.dark-mode p {
+    color: #fff;
+  }
+
+  /* 🔹 Grundläggande layout */
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    padding: 40px;
+    background: var(--bg-light);
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    background: var(--card-light);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    gap: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.8s forwards;
+  }
+  
+  /* 🔹 Text */
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: var(--highlight-light);
+    font-weight: bold;
+  }
+  
+  /* 🔹 Profilbild */
+  .about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* 🔹 Knappar */
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+  }
+  
+  .primary-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background: #0056b3;
+  }
+  
+  .secondary-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .secondary-btn:hover {
+    background: #1e7e34;
+  }
+  
+  /* 🔹 Sociala medier */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: var(--text-light);
+    margin-right: 15px;
+    transition: color 0.3s;
+  }
+  
+  .icon:hover {
+    color: var(--highlight-light);
+  }
+  
+  /* 🔹 Fade-in animation */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* 🔹 Responsiv design */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .about-image img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
