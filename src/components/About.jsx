@@ -10,12 +10,12 @@ const About = () => {
         <div className="about-text">
           <h1>Hej! Jag är <span className="highlight">Mattias Waern</span> 👋</h1>
           <p>
-            Jag är en passionerad <span className="highlight">webbutvecklare</span> med erfarenhet av 
+            Jag är en super duper bra <span className="highlight">webbutvecklare</span> med liten erfarenhet av 
             att bygga moderna och responsiva webbapplikationer. 
             Jag älskar att arbeta med <strong>React, JavaScript och CSS</strong>.
           </p>
           <p>
-            Förutom kodning är jag också intresserad av <span className="highlight">Game-design</span> och 
+            Förutom kodning är jag också intresserad samt passionerad av <span className="highlight">Game-design</span> och 
             hur man skapar vackra användarupplevelser.
           </p>
 
