@@ -10,7 +10,7 @@
     --highlight-dark: #61dafb;
   }
   
-  /* 🔹 Dark Mode Stöd */
+  /*  Dark Mode Stöd */
   body.dark-mode {
     background: var(--bg-dark);
     color: var(--text-dark);
@@ -32,7 +32,7 @@
     color: #fff;
   }
 
-  /* 🔹 Grundläggande layout */
+  /*  Grundläggande layout */
   .about-container {
     display: flex;
     justify-content: center;
@@ -57,7 +57,7 @@
     animation: fadeIn 0.8s forwards;
   }
   
-  /* 🔹 Text */
+  /*  Text */
   .about-text {
     flex: 1;
   }
@@ -78,7 +78,7 @@
     font-weight: bold;
   }
   
-  /* 🔹 Profilbild */
+  /*  Profilbild */
   .about-image img {
     width: 200px;
     height: 200px;
@@ -86,7 +86,7 @@
     object-fit: cover;
   }
   
-  /* 🔹 Knappar */
+  /*  Knappar */
   .button-container {
     margin-top: 20px;
   }
@@ -119,7 +119,7 @@
     background: #1e7e34;
   }
   
-  /* 🔹 Sociala medier */
+  /*  Sociala medier */
   .social-icons {
     margin-top: 20px;
   }
@@ -135,7 +135,7 @@
     color: var(--highlight-light);
   }
   
-  /* 🔹 Fade-in animation */
+  /*  Fade-in animation */
   @keyframes fadeIn {
     to {
       opacity: 1;
@@ -143,7 +143,7 @@
     }
   }
   
-  /* 🔹 Responsiv design */
+  /*  Responsiv design */
   @media (max-width: 768px) {
     .about-content {
       flex-direction: column;
