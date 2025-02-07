@@ -1,9 +1,7 @@
 # ProjektUppgiftV2
-Min Portfölj
-
 En personlig portföljhemsida där besökare kan lära känna mig, se mina projekt och kontakta mig. Webbplatsen är byggd med React, CSS, och använder React Router för navigering.
 
-Funktioner
+<h1>Funktioner</h1>
 
 ✅ Responsiv Design – Anpassad för både dator och mobil.
 
@@ -18,6 +16,7 @@ Funktioner
 ✅ Animerade Progress Bars – På About-sidan visas färdigheter med animerade progress bars.
 
 
+<h1>Teknologier som jag använde</h1>
 
 React – Komponentbaserad utveckling
 
@@ -29,7 +28,7 @@ React Icons – Ikoner för teknologier och sociala medier
 
 
 
- Installation & Start
+<h1>Installation & Start</h1>
  
  Kloning av repo
  
