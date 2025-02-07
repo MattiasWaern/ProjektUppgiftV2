@@ -9,8 +9,6 @@ En personlig portföljhemsida där besökare kan lära känna mig, se mina proje
 
 ✅ Projektkort med Tooltip – När man hovrar på ett projektkort visas en tooltip med de tekniker som använts.
 
-✅ Tidslinje (Timeline) – En horisontell tidslinje som visar viktiga händelser i mitt liv.
-
 ✅ Kontaktformulär – Möjlighet att kontakta mig via en snygg och modern kontaktsektion.
 
 ✅ Animerade Progress Bars – På About-sidan visas färdigheter med animerade progress bars.
